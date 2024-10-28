@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c27cf128d33412aa9bd05ddc91d8b5b, type: 3}
+  m_Name: Static Data
+  m_EditorClassIdentifier: 
+  Levels:
+  - {fileID: 11400000, guid: a1c0e15663fe6e2499274bcf0d69470b, type: 2}
+  - {fileID: 11400000, guid: 6faab5e793a215f4481ce257349dedd0, type: 2}
+  - {fileID: 11400000, guid: c29250c32807c374fae99fed46d40018, type: 2}
+  - {fileID: 11400000, guid: 012379701be2f2740891ba55dfd1ca46, type: 2}
+  - {fileID: 11400000, guid: 08067781c1c78884f9a96391222c4164, type: 2}
+  - {fileID: 11400000, guid: bcd368b29e0ba9242a5738bcaf14e36c, type: 2}
+  - {fileID: 11400000, guid: 22a93c0541c7ff6408d2fc8bcb54a77c, type: 2}
+  - {fileID: 11400000, guid: dc668b3b78e31594b981a31624277029, type: 2}
+  - {fileID: 11400000, guid: 816afe316c13d9549b66b29a79df8831, type: 2}
+  - {fileID: 11400000, guid: 36b14bb65aba6c4419048b852f4b7c6c, type: 2}
+  - {fileID: 11400000, guid: ddee6734192ae5b4d8a4ce19443f007c, type: 2}
+  - {fileID: 11400000, guid: 91417f80920bbae428e518303054fb73, type: 2}
+  - {fileID: 11400000, guid: 80270cfd6def12242b88280d875d3785, type: 2}
+  - {fileID: 11400000, guid: 1ae5a511c8a9b6442a0f3a73c16d52a7, type: 2}
+  PlacementErrorRadius: 0.25
+  ContactFilter:
+    useTriggers: 1
+    useLayerMask: 0
+    useDepth: 0
+    useOutsideDepth: 0
+    useNormalAngle: 0
+    useOutsideNormalAngle: 0
+    layerMask:
+      serializedVersion: 2
+      m_Bits: 0
+    minDepth: 0
+    maxDepth: 0
+    minNormalAngle: 0
+    maxNormalAngle: 0
+  DeathDuration: 3
+  DeathEase: 9
+  BeforeWinDelay: 7
+  AfterTeleportPunch: 0.3
+  EndPositionWalkTime: 2
+  PatternSortingLayerName: Foreground
+  PatternSortingOrder: 6
+  PatternScale: {x: 1, y: 0.5, z: 1}
+  MinPatternDistance: 0.3
+  Wheat: {fileID: 4229917217414430697, guid: f1fabbc3f3c3c1240986636ef45f489c, type: 3}
+  WheatDensity: {x: 6, y: 3}
+  WheatRandomMove: 0.1
+  HealthBar: {fileID: 5643118723118128559, guid: 0be09a33b5e9b5941a47967c2b3b57fd, type: 3}
+  RockDeathDuration: 0.5
+  MouseMask: {fileID: 9181476618295696375, guid: b0bcf0dd3a16b514a9fb6e2035f9a777, type: 3}
+  PatternMaterial: {fileID: 2100000, guid: 087598e47dd3097439ddbacf084beeb9, type: 2}
+  ChainPrefab: {fileID: 7594494525658114151, guid: 1440c1d3272cbbe469ab83abcbd243e0, type: 3}
+  Tooltip: {fileID: 7681903272868856770, guid: 0786f0b2feb3c1e4c98c5251110f637d, type: 3}
+  PunchScale: {x: 2, y: 2, z: 2}
+  PunchDuration: 0.3
+  PunchFrequency: 1
+  PunchEase: 24
+  SavedTextColor: {r: 0.9803922, g: 0.2627451, b: 0.9058824, a: 1}
+  PunchPaticle: {fileID: 2896217553288269405, guid: ff04b0212e4fa4a419793a135973188e, type: 3}
+  DeathMessage: Ouch! I am dead!
+  DeathMessageColor: {r: 1, g: 0, b: 0, a: 1}
+  LoseDelay: 2
+  LightMaterial: {fileID: 2100000, guid: 4fff811d713521d45acae48ff9cf41b5, type: 2}
+  SizeOffset: 2.21
+  BeamEnd: {fileID: 2304669590705949079, guid: 676ea28cec0885a4c999158784a4ac8c, type: 3}
+  BeamEndHeight: 3
+  BeamEndAdditionalWidth: 1.74
+  BeamFollowTime: 0.5
+  BeamFollowEase: 6
+  BeamSortingLayerName: Default
+  BeamSortingOrder: 1
+  MoveSpeed: 3
+  FollowRouteWaitTime: 1
+  UfoFlyTime: 1
+  UfoEase: 1
+  UfoSuccingScaleEase: 1
+  DeathCameraTime: 1
+  DeathCameraEase: 6
+  DeathCameraSizeEase: 9
+  DeathCameraSize: 3

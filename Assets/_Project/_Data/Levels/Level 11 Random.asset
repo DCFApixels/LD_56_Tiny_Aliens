@@ -1,0 +1,111 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84fdc9e69e6445e8956bff0f45072adb, type: 3}
+  m_Name: Level 11 Random
+  m_EditorClassIdentifier: 
+  PatternLocked: 1
+  LevelPrefab: {fileID: 728658508410941785, guid: 1bc5261bdca1ecf42bb62594f8aa882f, type: 3}
+  Pattern: {fileID: 11400000, guid: 0b8d6669c144e10409f9cf2acc2830b8, type: 2}
+  RandomPlaces:
+  - Item: {fileID: 5853947337396475019, guid: 91560ef0397e57741820cfc29ebc92b2, type: 3}
+    Amount: 5
+    ItemProperty:
+      CantBeDragged: 0
+      IgnoreAttractor: 0
+      IgnoreInPattern: 0
+      FollowRoute: 0
+      RoutePointsAmount: 0
+      RoutePoints: []
+  - Item: {fileID: 5853947337396475019, guid: 378deee1552ee2348afc9f6c722cde8a, type: 3}
+    Amount: 5
+    ItemProperty:
+      CantBeDragged: 0
+      IgnoreAttractor: 0
+      IgnoreInPattern: 0
+      FollowRoute: 0
+      RoutePointsAmount: 0
+      RoutePoints: []
+  - Item: {fileID: 5853947337396475019, guid: 25e2fcf6735602143b85e099224426d5, type: 3}
+    Amount: 5
+    ItemProperty:
+      CantBeDragged: 0
+      IgnoreAttractor: 0
+      IgnoreInPattern: 0
+      FollowRoute: 1
+      RoutePointsAmount: 8
+      RoutePoints: []
+  - Item: {fileID: 8169597421154227305, guid: 0f283ca0acf22ce4ea065287920526e5, type: 3}
+    Amount: 5
+    ItemProperty:
+      CantBeDragged: 0
+      IgnoreAttractor: 0
+      IgnoreInPattern: 0
+      FollowRoute: 1
+      RoutePointsAmount: 10
+      RoutePoints: []
+  - Item: {fileID: 5459139061952700022, guid: a4b25df86e4338f47b0d93c90c5e5375, type: 3}
+    Amount: 5
+    ItemProperty:
+      CantBeDragged: 0
+      IgnoreAttractor: 0
+      IgnoreInPattern: 0
+      FollowRoute: 1
+      RoutePointsAmount: 10
+      RoutePoints: []
+  Statics: []
+  Attractors:
+  - Attractor: {fileID: 5942281372213311797, guid: 079ecea632768354eb7e266121a078d9, type: 3}
+    Position: {x: 10, y: 5, z: 0}
+    FollowRoute: 1
+    RoutePointsAmount: 20
+    RoutePoints: []
+  - Attractor: {fileID: 5942281372213311797, guid: 38de7fa3f8b195c4dbf87759b2513465, type: 3}
+    Position: {x: -5, y: -5, z: 0}
+    FollowRoute: 1
+    RoutePointsAmount: 10
+    RoutePoints: []
+  Enemies:
+  - Prefab: {fileID: 3902613342061108009, guid: 2ed2f32cb1f399d45829b656f7437e8b, type: 3}
+    Position: {x: -10, y: -15, z: 0}
+    FollowRoute: 1
+    RoutePointsAmount: 10
+    RoutePoints: []
+    Speed: 0.5
+    WaitTime: 5
+  - Prefab: {fileID: 3902613342061108009, guid: 2ed2f32cb1f399d45829b656f7437e8b, type: 3}
+    Position: {x: 10, y: -15, z: 0}
+    FollowRoute: 1
+    RoutePointsAmount: 20
+    RoutePoints: []
+    Speed: 0.5
+    WaitTime: 5
+  Rocks:
+  - Prefab: {fileID: 2471922054124910627, guid: c8294026bf9fd574d9df8600615de52f, type: 3}
+    Position: {x: 0, y: 0, z: 0}
+    RandomPosition: 1
+    TimeToKill: 1
+  - Prefab: {fileID: 2471922054124910627, guid: c8294026bf9fd574d9df8600615de52f, type: 3}
+    Position: {x: 0, y: 0, z: 0}
+    RandomPosition: 1
+    TimeToKill: 1
+  - Prefab: {fileID: 2471922054124910627, guid: c8294026bf9fd574d9df8600615de52f, type: 3}
+    Position: {x: 0, y: 0, z: 0}
+    RandomPosition: 1
+    TimeToKill: 1
+  - Prefab: {fileID: 2471922054124910627, guid: c8294026bf9fd574d9df8600615de52f, type: 3}
+    Position: {x: 0, y: 0, z: 0}
+    RandomPosition: 1
+    TimeToKill: 1
+  - Prefab: {fileID: 2471922054124910627, guid: c8294026bf9fd574d9df8600615de52f, type: 3}
+    Position: {x: 0, y: 0, z: 0}
+    RandomPosition: 1
+    TimeToKill: 1

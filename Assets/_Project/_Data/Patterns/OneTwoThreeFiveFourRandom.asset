@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a7fb52fd40b48db9e0ea9e4c62df518, type: 3}
+  m_Name: OneTwoThreeFiveFourRandom
+  m_EditorClassIdentifier: 
+  Items:
+  - Item: {fileID: 5853947337396475019, guid: 91560ef0397e57741820cfc29ebc92b2, type: 3}
+    RelativePosition: {x: 0, y: 0, z: 0}
+    Random: 1
+    Min: {x: -1, y: -1, z: 0}
+    Max: {x: 0, y: 0, z: 0}
+  - Item: {fileID: 5853947337396475019, guid: 378deee1552ee2348afc9f6c722cde8a, type: 3}
+    RelativePosition: {x: 0.5, y: 0, z: 0}
+    Random: 1
+    Min: {x: -1, y: 0, z: 0}
+    Max: {x: 0, y: 1, z: 0}
+  - Item: {fileID: 5853947337396475019, guid: 25e2fcf6735602143b85e099224426d5, type: 3}
+    RelativePosition: {x: 1, y: 0, z: 0}
+    Random: 1
+    Min: {x: 0, y: 0, z: 0}
+    Max: {x: 1, y: 1, z: 0}
+  - Item: {fileID: 8169597421154227305, guid: 0f283ca0acf22ce4ea065287920526e5, type: 3}
+    RelativePosition: {x: 2, y: 0, z: 0}
+    Random: 1
+    Min: {x: 0, y: 0, z: 0}
+    Max: {x: 1, y: -1, z: 0}
+  - Item: {fileID: 5459139061952700022, guid: a4b25df86e4338f47b0d93c90c5e5375, type: 3}
+    RelativePosition: {x: 1.5, y: 0, z: 0}
+    Random: 1
+    Min: {x: -0.5, y: -0.5, z: 0}
+    Max: {x: 0.5, y: 0.5, z: 0}
