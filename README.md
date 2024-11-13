@@ -1,3 +1,8 @@
+
+<div align="center">
+  <img width="600" src="https://github.com/user-attachments/assets/1a8f06ed-c68d-483a-b880-c9faaf7e0b5f" alt="screenshot">
+</div>
+
 # Ludum Dare 56 - Tiny Aliens
 
 Release of the source code for the game Tiny Aliens. The original project contained assets whose license prohibited publication in the open. Links to the game on [LudumDare](https://ldjam.com/events/ludum-dare/56/tiny-aliens) and on [Itch.io](https://greatvv.itch.io/tiny-aliens-ludumdare-56). 
